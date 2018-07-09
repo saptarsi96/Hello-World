@@ -1,0 +1,44 @@
+WHEN WASTE IS APPLIED AT STEP 1 =====> CF=512
+<===================================>
+
+Step 1	CF:256
+	Possitive Error:		268.8	
+	Negative Error:		243.2
+Step 2	CF:640
+	Possitive Error:		656
+	Negative Error:		624
+Step 3	CF:448
+	Possitive Error:		453.6
+	Negative Error:		442.4
+Step 4	CF:544
+	Possitive Error:		547.4
+	Negative Error:		540.6
+Step 5  CF:496
+	Possitive Error:		497.55
+	Negative Error:		494.45
+Step 6	CF:520
+	Possitive Error:		520.8125
+	Negative Error:		519.1875
+Step 7	CF:508
+	Possitive Error:		508.9687
+	Negative Error:		507.6027
+Step 8	CF:514
+	Possitive Error:		514.20046	
+	Negative Error:		513.7944
+Step 9	CF:511
+	Possitive Error:		511.0997
+	Negative Error:		510.8998
+
+<==================================>
+
+WHEN WASTE IS APPLIED AT STEP 9 =====>CF=514
+
+Possitive Error:		536.55
+Negative Error:		485.45
+
+<==================================>
+
+WHEN WASTE IS APPLIED AT BOTH THE STEPS
+
+Possitive Error:		536.59990234375
+Negative Error:		485.40009765625

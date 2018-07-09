@@ -1,0 +1,15 @@
+Enter the percentage of error: 	3
+Possitive error:          341.01477832512313
+Negative error:          340.98477157360406
+
+Enter the percentage of error: 	5
+Possitive error:          341.0243902439025
+Negative error:          340.97435897435895
+
+Enter the percentage of error: 	7
+Possitive error:          341.03381642512073
+Negative error:          340.96373056994815
+
+Enter the percentage of error: 	10
+Possitive error:          341.04761904761904
+Negative error:          340.9473684210526

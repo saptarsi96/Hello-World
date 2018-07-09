@@ -1,0 +1,21 @@
+Waste found at position 512.0
+
+Enter the percentage of error: 	3
+Posssitive Volume        1.0150000000000001
+Negative volume          0.985
+Posssitive Volume        1.0075
+Negative volume          0.9924999999999999
+Posssitive Volume        1.0037500000000001
+Negative volume          0.99625
+Posssitive Volume        1.001875
+Negative volume          0.9981249999999999
+Posssitive Volume        1.0009375
+Negative volume          0.9990625
+Posssitive Volume        1.00046875
+Negative volume          0.99953125
+Posssitive Volume        1.000234375
+Negative volume          0.999765625
+Posssitive Volume        1.0001171875
+Negative volume          0.9998828125
+Positive Error   	 1.00005859375
+Negative Error   	 0.99994140625

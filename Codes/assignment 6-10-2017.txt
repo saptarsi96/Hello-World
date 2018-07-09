@@ -1,0 +1,69 @@
+import networkx as nx
+import matplotlib.pyplot as plt
+G=nx.DiGraph()
+n=int(input("Enter the target concentration value .. \n"))
+val=[float(i) for i in range(0,1025)]
+#Populating the array with values
+count=0
+low=float(input("Enter the buffer concentration value .. \n"))
+high=float(input("Enter the sample concentration value .. \n"))
+#Setting the buffer and solute sample conc and counter
+
+while(low<=high):
+    mid=float((low+high)/2.0)
+    mid=round(mid,1)
+    i=input("Enter the wieght of the graph: \t")
+    G.add_edge(low,mid,weight=i,color='b')
+    G.add_edge(high,mid,weight=i,color='g')
+    #pos = nx.circular_layout(G)
+
+    #edges = G.edges()
+    #colors = [G[u][v]['color'] for u,v in edges]
+    
+
+    #nx.draw(G, pos=pos, edges=edges, edge_color=colors,with_labels=True,width=1,font_family='sans-serif')
+    #plt.figure(figsize=(18,18))
+    
+    #plt.show()
+    #print(G.edges(data=True))
+    
+    count=count+1
+    print("High:\t",high,"Low:\t",low,"Target:\t",mid,"Steps:\t",count,)
+    #print (nx.info(G))
+    
+
+    if n==mid:
+        print("Found at position",mid,"in",count,"steps")
+        break
+    elif mid>n:
+        high=mid
+    else:
+        low=mid
+#Finding the number of steps in which we can attain the desired target concentration
+#edge_list=[e for e in G.edges_iter()]
+p=G.nodes()
+for i in p:
+    if(G.in_degree(i)-G.out_degree(i))!=0 and (-(G.in_degree(i))and G.out_degree(i)):
+        print("Waste found at position ",i)
+        e=int(input("Enter the percentage of error: \t"))
+        e1=1+e/100
+        e2=1-e/100
+        w1=G.successors(i)
+        w2=G.predecessors(w1[0])
+        pe=((w2[0]*1)+(w2[1]*e1))/(1+e1)
+        ne=((w2[0]*1)+(w2[1]*e2))/(1+e2)
+        
+        print("Possitive error:  \t ",pe)
+        print("Negative error:   \t",ne)
+        
+      
+        
+
+#print("Waste at ",i)
+#For finding the position of the waste droplet
+nx.draw_circular(G,with_labels=True)
+#plt.show()
+
+
+plt.show()
+

@@ -1,0 +1,3 @@
+Enter the percentage of error: 	3
+Possitive error:          767.0443349753693
+Negative error:          766.9543147208122

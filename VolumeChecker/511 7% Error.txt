@@ -1,0 +1,19 @@
+Enter the percentage of error: 	7
+Posssitive Volume        1.0350000000000001
+Negative volume          0.965
+Posssitive Volume        1.0175
+Negative volume          0.9824999999999999
+Posssitive Volume        1.00875
+Negative volume          0.99125
+Posssitive Volume        1.004375
+Negative volume          0.995625
+Posssitive Volume        1.0021875
+Negative volume          0.9978125
+Posssitive Volume        1.00109375
+Negative volume          0.99890625
+Posssitive Volume        1.000546875
+Negative volume          0.999453125
+Posssitive Volume        1.0002734375
+Negative volume          0.9997265625
+Positive Error   	1.0001367187499999
+Negative Error   	0.99986328125

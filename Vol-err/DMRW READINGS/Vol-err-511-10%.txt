@@ -1,0 +1,44 @@
+Enter the percentage of error: 	10
+Possitive error:          268.1904761904762
+Negative error:          242.5263157894737
+Waste found at position  256.0
+
+Enter the percentage of error: 	10
+Possitive error:          390.0952380952381
+Negative error:          377.2631578947368
+Waste found at position  384.0
+
+Enter the percentage of error: 	10
+Possitive error:          451.04761904761904
+Negative error:          444.63157894736844
+Waste found at position  448.0
+
+Enter the percentage of error: 	10
+Possitive error:          481.5238095238095
+Negative error:          478.3157894736842
+Waste found at position  480.0
+
+Enter the percentage of error: 	10
+Possitive error:          496.76190476190476
+Negative error:          495.1578947368421
+Waste found at position  496.0
+
+Enter the percentage of error: 	10
+Possitive error:          504.3809523809524
+Negative error:          503.57894736842104
+Waste found at position  504.0
+
+Enter the percentage of error: 	10
+Possitive error:          508.1904761904762
+Negative error:          507.7894736842105
+Waste found at position  508.0
+
+Enter the percentage of error: 	10
+Possitive error:          510.0952380952381
+Negative error:          509.89473684210526
+Waste found at position  510.0
+
+Enter the percentage of error: 	10
+Possitive error:          511.04761904761904
+Negative error:          510.94736842105266
+Waste found at position  511.0
